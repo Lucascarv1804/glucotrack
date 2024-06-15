@@ -1,0 +1,10 @@
+{
+    "2": {
+        "py/object": "entidades.todas.Paciente",
+        "nome": "Lucas",
+        "idade": 22,
+        "sexo": "M",
+        "peso": 60.0,
+        "altura": 160
+    }
+}

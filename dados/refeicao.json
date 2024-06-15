@@ -1,0 +1,20 @@
+{
+    "1": {
+        "py/object": "entidades.todas.Refeicao",
+        "paciente": "1",
+        "nome": "Coxinha",
+        "data": "14/06/24 14:00",
+        "proteinas": 10.0,
+        "gorduras": 50.0,
+        "carboidratos": 50.0
+    },
+    "2": {
+        "py/object": "entidades.todas.Refeicao",
+        "paciente": "2",
+        "nome": "Banana",
+        "data": "18/04/02 18:50",
+        "proteinas": 10.0,
+        "gorduras": 20.0,
+        "carboidratos": 30.0
+    }
+}

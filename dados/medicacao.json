@@ -1,0 +1,29 @@
+{
+    "1": {
+        "py/object": "entidades.todas.Medicacao",
+        "paciente": "1",
+        "nome": "Nimesulida",
+        "dosagem": "500mg",
+        "hora_inicial": "09:00",
+        "intervalo": 6,
+        "lembrar": false
+    },
+    "2": {
+        "py/object": "entidades.todas.Medicacao",
+        "nome": "Azitromicina",
+        "dosagem": "500mg",
+        "hora_inicial": "12:00",
+        "intervalo": 24,
+        "lembrar": false,
+        "paciente": "1"
+    },
+    "3": {
+        "py/object": "entidades.todas.Medicacao",
+        "paciente": "2",
+        "nome": "BANANA",
+        "dosagem": "10",
+        "hora_inicial": "19:00",
+        "intervalo": "10",
+        "lembrar": true
+    }
+}

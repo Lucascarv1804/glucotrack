@@ -1,0 +1,14 @@
+{
+    "1": {
+        "py/object": "entidades.todas.Glicemia",
+        "paciente": "1",
+        "data": "02/04/24 10:50",
+        "valor": 100.0
+    },
+    "2": {
+        "py/object": "entidades.todas.Glicemia",
+        "paciente": "2",
+        "data": "20/10/23 18:00",
+        "valor": 100.0
+    }
+}
