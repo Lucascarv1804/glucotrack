@@ -1,27 +1,37 @@
-GlucoTrack
+🚀 GlucoTrack
+GlucoTrack é uma aplicação para controle de diabetes, facilitando o acompanhamento dos níveis de glicemia e do consumo de calorias de forma simples e eficiente.
 
-Aplicação para controle de diabetes fazendo o acompanhamento da glicemia e do consumo de calorias.
+📋 Descrição
+Este projeto foi desenvolvido como parte da disciplina de Projetos na Cesar School, pela Equipe 3.
 
-Projeto da cadeira de Projetos da Cesar School.
+👥 Equipe
+Lucas Carvalho: 👨‍💼 Gerente de Projeto
+João Rietra: 👨‍💻 Líder Técnico
+Lucas Lima: 👨‍💻 Desenvolvedor
+Ivo Caetano: 👨‍💻 Desenvolvedor
+🛠️ Arquitetura do Projeto
+O GlucoTrack segue o padrão de arquitetura MVC (Model-View-Controller), permitindo a separação entre as camadas de:
 
-Equipe 3
+Regra de negócio (Controller)
+Modelo de dados (Model)
+Interface com o usuário (View)
+Essa abordagem facilita a organização do desenvolvimento, a divisão de tarefas e a manutenção do código.
 
-Lucas Carvalho: Gerente de Projeto;
-João Rietra: Líder Técnico;
-Lucas Lima: Desenvolvedor;
-Ivo Caetano: Desenvolvedor;
+🔍 Camadas do Projeto
+Model (Dados): 📂 Atualmente, os dados são armazenados em arquivos JSON.
+View (Interface com o Usuário): 🖥️ A interface com o usuário, no momento, é baseada em console.
+Controller (Regras de Negócio): ⚙️ Controla a interação entre Model e View, garantindo o funcionamento adequado do sistema.
+No futuro, planejamos expandir e desacoplar as camadas, permitindo integração com novas tecnologias, como bancos de dados relacionais, NoSQL, serviços em nuvem e interfaces gráficas mais intuitivas.
 
-A aplicação está organizada no modelo MVC por permitir a separação em camadas de regras de negócio, modelo de dados e interface com o usuário,
-permitindo que a equipe possa se dividir no desenvolvimento da aplicação e facilitar a manutenção.
+📦 Dependências
+Para rodar o GlucoTrack, você precisará das seguintes bibliotecas Python:
 
-Neste momento, a camada de dados está baseada em arquivos no formato json. A camada de interface com o usuário utiliza o console.
-No futuro, através de interfaces, implementaremos mais desacoplamento permitindo que cada camada possa utilizar tecnologias diferentes (bancos de dados relacionais,
-NOSQL, serviços em nuvem, interface com usuário mais robustas e visuais, etc).
+PrettyTable: 📊 Para exibir dados em formato de tabela no console.
+PyFiglet: 🎨 Para exibir títulos estilizados no console.
+📥 Instruções de Instalação
+Execute os comandos abaixo para instalar as dependências:
 
-Para rodar é necessário instalar no python as bibliotecas:
-PrettyTable: para exibição de dados em tabelas no console
-PyFiglet: para exibição de títulos amigáveis no console
-
-Instruções para instalação das bibliotecas:
+bash
+Copiar código
 pip install prettytable
 pip install pyfiglet
